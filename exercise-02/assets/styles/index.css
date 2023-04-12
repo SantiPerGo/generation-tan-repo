@@ -1,0 +1,55 @@
+* {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    text-align: center;
+    color: bisque;
+}
+
+body {
+    background-image: url("../img/background.png");
+}
+
+hr {
+    border: none;
+    border-top: 5px dashed bisque;
+    margin: 20px;
+}
+
+h1, h2 {
+    font-size: 2vw;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+ul, ol {
+    display: table;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+.responsive-img {
+    width: 10%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column-1 {
+    flex: 50%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;     
+}
+
+.column-2 {
+    flex: 50%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;  
+    padding-right: 100px;
+}
+
+.column-3 {
+    flex: 50%;
+    margin: 50px;
+}
