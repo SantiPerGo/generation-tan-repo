@@ -2,6 +2,7 @@
     font-family: 'Schibsted Grotesk', sans-serif;
     text-align: center;
     color: bisque;
+    font-size: 1vw;
 }
 
 body {
@@ -15,7 +16,7 @@ hr {
 }
 
 h1, h2 {
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: 'Sedgwick Ave Display', cursive;
 }
 
