@@ -51,5 +51,16 @@ ul, ol {
 
 .column-3 {
     flex: 50%;
-    margin: 50px;
+    margin: 10px;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 5px solid bisque;
+    padding: 20px;
+}
+
+th {
+    background-color: navajowhite;
+    color: gray;
 }
