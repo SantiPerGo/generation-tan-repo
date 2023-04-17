@@ -11,3 +11,15 @@ ul, ol {
     display: table;
     margin: 0 auto;
 }
+
+.table-styles {
+    border: 2px dashed darkorange;
+}
+
+th, td {    
+    border-top: 2px dashed darkorange;
+    border-bottom: 3px dashed greenyellow;
+    border-left: 4px dashed slateblue;
+    border-right: 5px dashed pink;
+    padding: 5px;
+}
