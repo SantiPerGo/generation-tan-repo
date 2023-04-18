@@ -1,13 +1,8 @@
-* {
-    font-family: 'Schibsted Grotesk', sans-serif;
-    text-align: center;
-}
-
 h1 {
     font-family: 'Sedgwick Ave Display', cursive;
 }
 
-ul, ol {
+section ul, section ol {
     display: table;
     margin: 0 auto;
 }
