@@ -10,4 +10,5 @@ Exercises:
 <ol>
     <li>Identify the syntax errors in HTML</li>
     <li>Create a personal website</li>
+    <li>Create a copy of a Rothko painting</li>
 </ol>
