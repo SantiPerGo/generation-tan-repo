@@ -1,0 +1,20 @@
+/* Variables */
+:root {
+    --form-unit: 1.5em;
+}
+
+form {
+    border: var(--border-width) double var(--form-color);
+    margin: var(--form-unit);
+    padding: var(--form-unit);
+    border-radius: var(--form-unit);
+}
+
+fieldset {
+    padding: var(--form-unit);
+}
+
+input:focus, input:hover {
+    outline: none !important;
+    border: var(--border-width) double var(--form-color);
+}

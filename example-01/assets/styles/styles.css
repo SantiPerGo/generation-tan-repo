@@ -1,6 +1,19 @@
+/* Importing font types */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&family=Sedgwick+Ave+Display&display=swap");
+
+/* Variables */
+:root {
+    --nav-background: black;
+    --text-color: white;
+    --border-width: 5px;
+    --form-color: lightpink;
+}
+
 * {
     font-family: 'Schibsted Grotesk', sans-serif;
     text-align: center;
+    font-size: 1.05em;
 }
 
 nav {
@@ -15,7 +28,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--nav-background);
 }
 
 nav ul li {
@@ -24,12 +37,39 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: var(--text-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-body { 
+nav ul li a:hover {
+    background-color: var(--text-color);
+    color: var(--nav-background);
+}
+
+body {
+    color: var(--text-color);
     padding-top: 60px;
+    background: rgb(36,0,9);
+    background: linear-gradient(90deg, rgba(36,0,9,1) 0%, rgba(103,9,121,1) 64%, rgba(0,99,255,1) 100%);
+}
+
+h1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 2em;
+}
+
+button, #button {
+    background-color: transparent;
+    border: var(--border-width) solid var(--text-color);
+    border-radius: 10px;
+    color: var(--text-color);
+    padding: 10px;
+}
+
+button:hover, #button:hover {
+    background-color: var(--form-color);
+    border: var(--border-width) solid var(--form-color);
+    color: var(--nav-background);
 }

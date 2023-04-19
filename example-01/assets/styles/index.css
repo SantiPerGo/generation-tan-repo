@@ -1,14 +1,10 @@
-h1 {
-    font-family: 'Sedgwick Ave Display', cursive;
-}
-
 section ul, section ol {
     display: table;
     margin: 0 auto;
 }
 
 .table-styles {
-    border: 2px dashed darkorange;
+    border: var(--border-width) dashed darkorange;
 }
 
 th, td {    
@@ -17,4 +13,9 @@ th, td {
     border-left: 4px dashed slateblue;
     border-right: 5px dashed pink;
     padding: 5px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
